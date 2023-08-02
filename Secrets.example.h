@@ -2,14 +2,14 @@
  
 #define SECRET
  
-const char WIFI_SSID[] = "***";               //TAMIM2.4G
-const char WIFI_PASSWORD[] = "***";           //0544287380
+const char WIFI_SSID[] = "***";               //WIFI NAME
+const char WIFI_PASSWORD[] = "***";           //WIFI PASSWORD
  
 #define THINGNAME "***"
  
 int8_t TIME_ZONE = 3; // +3 UTC
  
-const char MQTT_HOST[] = "***";
+const char MQTT_HOST[] = "***";  // MQTT Host
  
  
 static const char cacert[] PROGMEM = R"EOF(
